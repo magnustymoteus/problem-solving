@@ -37,7 +37,7 @@ int main() {
         {5,7,6},
         {-8,1,9}
     };
-    determinant(m); //outputs 318 (4x4 matrix)
-    determinant(m2); //outputs -414 (3x3 matrix)
+    determinant(m);//outputs 318 (4x4 matrix)
+    determinant(m2);//outputs -414 (3x3 matrix)
     return 0;
 }
