@@ -20,9 +20,7 @@ long long determinant(vector<vector<long long>> m) {
                 }
             }
         }
-        res += (m[0][fc-1])*((s)*(determinant(m2)));
-        s = (s==1)?s=-1:s=1;
-        m2.clear();
+        res += (m[0][fc-1])*((s)*(determinant(m2))),s = (s==1)?s=-1:s=1,m2.clear();
     }
     return res;
   }
