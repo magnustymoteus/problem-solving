@@ -1,3 +1,5 @@
+/* Calculates a determinant for a NxN matrix using a recursive function with dynamic 2D arrays and a 3D for-loop. 
+To make the function syntactically compact are ternary operators used instead of repetitive conditional statements. */
 #include <vector>
 using namespace std;
 long long determinant(vector<vector<long long>> m) {
@@ -37,7 +39,7 @@ int main() {
         {5,7,6},
         {-8,1,9}
     };
-    determinant(m); //outputs 318 (4x4 matrix)
-    determinant(m2); //outputs -414 (3x3 matrix)
+    determinant(m);//outputs 318 (4x4 matrix)
+    determinant(m2);//outputs -414 (3x3 matrix)
     return 0;
 }
