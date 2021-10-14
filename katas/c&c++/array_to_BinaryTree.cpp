@@ -35,7 +35,7 @@ int main() {
     vector<int> arr = {17, 0, -4, 3, 15};
 	TreeNode *binTree = Solution::arrayToTree(arr); 
 	/*outputs the following binary tree:
-	17
+    17
    /  \
   0   -4
  / \
