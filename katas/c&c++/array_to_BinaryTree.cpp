@@ -41,9 +41,13 @@ int main() {
  / \
 3   15 
 	*/
-		/*The static method of the solution class uses recursion to determine the succeeding children. If the current index is smaller than the size of the vector array, then the child is the integer at the index position of the vector array argument. The next left child is determined by self-multiplication by 2 and subsequent incrementation by 1, while for the right child the index is multiplied by 2 and incremented by the same number afterwards.
+/*The static method of the solution class uses recursion to determine the succeeding children. 
+If the current index is smaller than the size of the vector array, then the child is the integer at the index position of the vector array argument.
+The next left child is determined by self-multiplication by 2 and subsequent incrementation by 1, 
+while for the right child the index is multiplied by 2 and incremented by the same number afterwards.
 	
-	This challenge was slightly harder due to my previous unfamiliarity with binary trees and tree data stuctures in general.
+This challenge was slightly harder due to my previous unfamiliarity 
+with binary trees and tree data stuctures in general.
 	*/
 	return 0;
 }
