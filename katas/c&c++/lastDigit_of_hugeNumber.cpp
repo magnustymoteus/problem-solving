@@ -8,6 +8,8 @@ The iteration firstly checks if the list element equals to zero. If that's the c
 Otherwise rmod is calculated in accordance to the conditions in the ternary operator, along with riz and rbt variables.
 The reverse iterator ignores the first list element because the parameters for the mod() function are different.
 The mod() function returns the remainder of the list element divided by 4 or 10 multiplied by the same remainder to the power of remainder of the remainder of rmod + 3 divided by 4, divided by 4 or 10.
+
+This problem was one of the most challenging for me, i had to solve a different problem first in order to subsequently solve this one, and it involved a lot of research about exponents.
 */
 
 
