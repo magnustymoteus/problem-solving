@@ -1,0 +1,1 @@
+SELECT DISTINCT p.*, COUNT(t.people_id) as toy_count FROM people as p LEFT JOIN toys as t ON p.id = t.people_id GROUP BY p.id;
